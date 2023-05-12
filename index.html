@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>portFoliyo</title>
+    <link href="assesc/portFoliyoStyle.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="assesc/images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#">Assignment</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full-Stack Developer</p>
+            <h1>Hi, I'm <span>Sayantha<br> Hansaka</span><br> From Sri Lanka</h1>
+        </div>
+    </div>
+</div>
+<!--============================================about====================================-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assesc/images/e.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    My Name Is Sayantha Hansaka. I’m the first year student of IJSE (Institute of Software Engineering), I’m currently learning more about software development, web development and international technologies. I like to improve my skills by
+                    working on projects. I have knowledge of web application design and mobile app
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>App Development</span><br>Building Java app</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>non</span><br>Experance</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2007 - 2013 </span><br>Primary Education form Mayadunna College</li>
+                        <li><span>2014 - 2020</span><br>Secondary Education form Siri Piyarathana Central College</li>
+                        <li><span>2022. PRESENT</span><br>Higher  Education from IJSE(institute of Software Engineering)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--============================================services====================================-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Software Developer</h2>
+                <p>
+                    All standalone software development with Java, JavaFx, MySQl,SpringBoot and Hibernate.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>
+                    Blogs, E.commerce websites development with JavaScript.CSS and HTML.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    Mobile apps, web sites design
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==========================================Skills===================================-->
+<div id="skill">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assesc/images/java.webp">
+                <div class="lyr">
+                    <h3>Java</h3>
+                    <p>
+                        1 Year Experience <br>
+                        12 Done
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/javafx.webp">
+                <div class="lyr">
+                    <h3>JavaFX</h3>
+                    <p>
+                        1 Year Experience <br>
+                        8 Done
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/mysql.jpg">
+                <div class="lyr">
+                    <h3>MySQL</h3>
+                    <p>
+                        1 Year Experience <br>
+                        14 Done
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/html.jpg">
+                <div class="lyr">
+                    <h3>HTML</h3>
+                    <p>
+                        1 Year Experience <br>
+                        10 Done
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/csss.jpg">
+                <div class="lyr">
+                    <h3>CSS</h3>
+                    <p>
+                        1 Year Experience <br>
+                        6 Done
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/javaScript.png">
+                <div class="lyr">
+                    <h3>JavaScript</h3>
+                    <p>
+                        1 Year Experience <br>
+                        4 Done
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--==========================================Work===================================-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assesc/images/furniture.png">
+                <div class="layer">
+                    <h3>Furniture Managemant System</h3>
+                    <p>
+                        Vasantha Furniture Store in Padukka Galagedara area.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1Hff-FMavZqUL2HNN54acpDvnx3mHdw-C/view?usp=share_link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/hotel.jpg">
+                <div class="layer">
+                    <h3>Hostel Management System</h3>
+                    <p>
+                        D24 Hostel in Colombo 15.
+                    </p>
+                    <a href="https://github.com/sayanthahansaka/Hostel.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assesc/images/library.jpg">
+                <div class="layer">
+                    <h3>Furniture Managemant System</h3>
+                    <p>
+                        Vasantha Furniture Store in Padukka Galagedara area
+                    </p>
+                    <a href="https://drive.google.com/file/d/1Hff-FMavZqUL2HNN54acpDvnx3mHdw-C/view?usp=share_link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--============================================Assignment====================================-->
+<div id="assignment">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">Assignment</h1>
+
+                <div class="tab-with">
+                    <h3 class="tab-pasce">My Portfolio Step By Step</h3>
+                    <ul>
+                        <li>App Development Building Android/IOS app</li>
+                    </ul>
+                    <ul>
+                        <li>Web Development Web app Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab-with">
+                    <h3 class="tab-pasce">Software Development</h3>
+                    <ul>
+                        <li>App Development Building Android/IOS app</li>
+                    </ul>
+                    <ul>
+                        <li>Web Development Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-with">
+                    <h3 class="tab-pasce">Web Development</h3>
+                    <ul>
+                        <li>App Development Building </li>
+                    </ul>
+                    <ul>
+                        <li>Web Development Web app Development</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--=================================contact================================-->
+
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact</h1>
+        <div class="row">
+            <div class="contact-left">
+                <p><i class="fas fa-paper-plane"></i>sayanthahansaka00@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0752803235</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100078095591229&viewas=100000686899395"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/sayanthah"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/sayanthahansaka/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sayanthahansaka/"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+<!--I NOT INPUT CV-->
+
+                <a href="" download class="btn btn2">Download CV </a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="myprofile">
+        <p>Developed by Sayantha <i class="fas fa-heart"></i> |@ 2023 ALL Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
